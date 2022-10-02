@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overlock:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C4C4C4;
+}
+
+.box-1 img {
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 750px;
+}
+.box-1 .navbar {
+  flex-wrap: wrap;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+.box-1 .navbar .baratie {
+  font-family: "Playfair Display SC";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-style: normal;
+  flex-wrap: wrap;
+}
+.box-1 .navbar .page-links {
+  flex-wrap: wrap;
+}
+.box-1 .navbar .page-links ul {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+  list-style: none;
+}
+.box-1 .navbar .page-links ul .pages {
+  flex-wrap: wrap;
+}
+.box-1 .navbar .page-links ul .pages a {
+  flex-wrap: wrap;
+  font-family: "Patua One";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+  align-items: center;
+  color: #FFFFFF;
+  font-style: normal;
+  text-decoration: none;
+}
+.box-1 .navbar .page-links ul .pages a:hover {
+  text-decoration-line: underline;
+}
+.box-1 .navbar .page-links ul .fa-brands {
+  color: #FFFFFF;
+  flex-wrap: wrap;
+}
+.box-1 .header-text {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 110vh;
+  gap: 70px;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+.box-1 .header-text h1 {
+  flex-wrap: wrap;
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 134px;
+  line-height: 166px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  font-style: normal;
+  z-index: 2;
+}
+
+#section-2 {
+  text-align: center;
+  flex-wrap: wrap;
+}
+#section-2 h1 {
+  flex-wrap: wrap;
+  padding: 90px 0 20px 0;
+  text-align: center;
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 83px;
+  color: #000000;
+  font-style: normal;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-radius: 34px;
+}
+#section-2 p {
+  flex-wrap: wrap;
+  padding: 40px 0;
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  font-style: normal;
+}
+#section-2 button {
+  flex-wrap: wrap;
+  width: 340px;
+  border: none;
+  background: #3B3131;
+  border-radius: 10px;
+  height: 65px;
+  margin-bottom: 100px;
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 59px;
+  color: #FFFFFF;
+  font-style: normal;
+  cursor: pointer;
+  transition: 1s;
+}
+#section-2 button:hover {
+  background-color: #FFFFFF;
+  color: #3B3131;
+}
+
+#section-3 .book-1 {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+#section-3 .book-1 img {
+  width: 33.3%;
+}
+
+#section-menu-1 {
+  text-align: center;
+}
+#section-menu-1 h1 {
+  font-family: "Oranienbaum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 111px;
+  padding: 20px;
+  color: #000000;
+}
+#section-menu-1 .text {
+  display: flex;
+  font-family: "Overlock";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  justify-content: center;
+  gap: 20px;
+  color: #000000;
+}
+#section-menu-1 .text .p {
+  text-decoration-line: underline;
+}
+
+#section-menu-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+#section-menu-2 .column-1 {
+  padding: 120px 0 50px 0;
+}
+#section-menu-2 .column-1 .box-1 {
+  display: flex;
+  gap: 80px;
+}
+#section-menu-2 .column-1 .box-1 h1 {
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #000000;
+  font-style: normal;
+}
+#section-menu-2 .column-1 .box-1 span {
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #9E1E1E;
+  font-style: normal;
+}
+#section-menu-2 .column-1 p {
+  font-family: "Oranienbaum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  padding: 50px 0 30px 0;
+}
+#section-menu-2 .column-1 .line {
+  width: 570px;
+  height: 0px;
+  border: 2px solid #000000;
+}
+
+#section-menu-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+#section-menu-3 .column-1 .box-1 {
+  display: flex;
+  gap: 80px;
+}
+#section-menu-3 .column-1 .box-1 h1 {
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #000000;
+  font-style: normal;
+}
+#section-menu-3 .column-1 .box-1 span {
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #9E1E1E;
+  font-style: normal;
+}
+#section-menu-3 .column-1 p {
+  font-family: "Oranienbaum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  padding: 50px 0 30px 0;
+}
+#section-menu-3 .column-1 .line {
+  width: 570px;
+  height: 0px;
+  border: 2px solid #000000;
+}
+
+#section-menu-4 .btn {
+  text-align: center;
+  padding: 20px;
+}
+#section-menu-4 .btn button {
+  flex-wrap: wrap;
+  width: 340px;
+  border: none;
+  background: #3B3131;
+  border-radius: 10px;
+  height: 65px;
+  margin-bottom: 100px;
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 59px;
+  color: #FFFFFF;
+  font-style: normal;
+  cursor: pointer;
+  transition: 1s;
+}
+#section-menu-4 .btn button:hover {
+  background-color: #FFFFFF;
+  color: #3B3131;
+}
+#section-menu-4 .container {
+  height: 780px;
+}
+#section-menu-4 .container img {
+  position: absolute;
+  width: 837px;
+  height: 742px;
+  right: 30px;
+}
+#section-menu-4 .container .bag-1 {
+  position: absolute;
+  width: 647px;
+  height: 463px;
+  margin: 150px 0 0 10px;
+  background-color: #E9E9E9;
+}
+#section-menu-4 .container .bag-2 {
+  position: absolute;
+  width: 647px;
+  height: 463px;
+  margin: 180px 0 0 45px;
+  background: #E9E9E9;
+}
+#section-menu-4 .container .bag-2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+  color: #000000;
+}
+#section-menu-4 .container .bag-2 h4 {
+  text-align: end;
+  padding: 70px 50px 0 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+#section-menu-5 {
+  padding-bottom: 50px;
+}
+#section-menu-5 img {
+  position: absolute;
+  width: 100%;
+  height: 512px;
+  z-index: -1;
+}
+#section-menu-5 h1 {
+  padding: 100px 0 0 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 142px;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 1;
+}
+#section-menu-5 p {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  z-index: 1;
+  color: #FFFFFF;
+  text-align: center;
+  font-style: normal;
+  padding: 0 0 30px 0;
+}
+#section-menu-5 .btn {
+  text-align: center;
+  width: 100%;
+}
+#section-menu-5 .btn button {
+  width: 427px;
+  background: #383737;
+  border-radius: 44px;
+  height: 90px;
+  border: none;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  text-decoration-line: underline;
+  color: #E9E9E9;
+  z-index: 1;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 20px 50px;
+}
+footer .box-1 {
+  text-align: center;
+}
+footer .box-1 h1 {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+  font-style: normal;
+}
+footer .box-1 h4 {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  font-style: normal;
+}
+footer .box-2 {
+  text-align: center;
+}
+footer .box-2 h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  color: #000000;
+}
+footer .box-2 .icons {
+  text-align: center;
+}
+footer .box-2 .icons .fa-brands {
+  font-size: 30px;
+  color: #000000;
+  padding: 0 20px;
+}
+footer .box-2 h4 {
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+footer .box-3 {
+  text-align: center;
+}
+footer .box-3 h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  color: #000000;
+}
+footer .box-3 h4 {
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
